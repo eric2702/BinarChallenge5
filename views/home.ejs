@@ -1,0 +1,284 @@
+<%- include('partials/headerhome.ejs') %>
+<!-- first part of page -->
+<div class="first-part" id="first-part">
+    <!-- background image -->
+    <img src="images/main-bg.jpg" alt="background">
+    <!-- END OF BACKGROUND IMAGE -->
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-xl navbar-dark bg-dark pt-lg-3 pb-lg-3 pb-lg-4 pt-lg-4">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">LOGO</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item ">
+                        <a class="nav-link" aria-current="page" href="#">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">WORK</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">CONTACT</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">ABOUT ME</a>
+                    </li>
+                </ul>
+                <ul class="right-side navbar-nav mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">SIGN UP</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/login">LOG IN</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- END OF NAVBAR -->
+    <h1 class="text-white play-traditional-game">PLAY TRADITIONAL GAME</h1>
+    <p class="text-white experience">Experience new traditional game play</p>
+    <div class="play-now">
+        <a href="/login"><button class="btn btn-warning play-now-text">
+                TRIAL
+            </button></a>
+    </div>
+    <p class="the-story text-white">THE STORY</p>
+    <a href="#second-part"><img class="scroll-down" src="images/scroll down.svg" alt="scroll-down"></a>
+</div>
+<!-- END OF FIRST PART OF PAGE -->
+<!-- second part of page -->
+<div class="second-part" id="second-part">
+    <!-- background image -->
+    <img src="images/the-games-bg.jpg" alt="background">
+    <!-- END OF BACKGROUND IMAGE -->
+    <h3 class="text-white">What's so special?</h3>
+    <h1 class="text-white">THE GAMES</h1>
+    <!-- carousel -->
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"></li>
+            <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></li>
+            <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"></li>
+            <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"></li>
+            <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="images/rockpaperstrategy-1600.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="images/rockpaperstrategy-1600.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="images/rockpaperstrategy-1600.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="images/rockpaperstrategy-1600.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="images/rockpaperstrategy-1600.jpg" class="d-block w-100" alt="...">
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </a>
+    </div>
+    <!-- END OF CAROUSEL -->
+</div>
+<!-- END OF SECOND PART OF PAGE -->
+<!-- third part of page -->
+<div class="third-part" id="third-part">
+    <img src="images/features.jpg" alt="features">
+    <h3 class="text-white">What's so special</h3>
+    <h1 class="text-white">FEATURES</h1>
+    <img class="ellipse-white" src="images/Ellipse 1.svg" alt="ellipse white">
+    <p class="traditional-games">TRADITIONAL GAMES</p>
+    <p class="if-you-miss">If you miss your childhood, we provide <br> many traditional games here</p>
+    <img class="ellipse-1" src="images/Ellipse.svg" alt="ellipse">
+    <p class="game-suit">GAME SUIT</p>
+    <img class="ellipse-2" src="images/Ellipse.svg" alt="ellipse">
+    <p class="tbd">TBD</p>
+</div>
+<!-- END OF THIRD PART OF PAGE -->
+<!-- fourth part of page -->
+<div class="fourth-part" id="fourth-part">
+    <img src="images/requirements.png" alt="req">
+    <h1>SYSTEM <br> REQUIREMENTS</h1>
+    <table class="table-requirements">
+        <tr>
+            <td>
+                <span class="requirements-caption-title">OS:</span> <br>
+                <span class="text-white">Windows 7 64-bit only <br> (No OSX support at this
+                    time)</span>
+            </td>
+            <td>
+                <span class="requirements-caption-title">PROCESSOR:</span> <br>
+                <span class="text-white">Internal Core 2 Duo @ 2.4 GHZ or <br> AMD Athlon X2 @ 2.8
+                    GHZ</span>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="requirements-caption-title">MEMORY:</span> <br>
+                <span class="text-white">4 GB RAM</span>
+            </td>
+            <td>
+                <span class="requirements-caption-title">STORAGE:</span> <br>
+                <span class="text-white">8 GB available space</span>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <span class="requirements-caption-title">GRAPHICS:</span> <br>
+                <span class="text-white">NVIDIA GeForce GTX 660 2GB or <br> AMD Radeon HD 7850 2GB
+                    DirectX11 (Shader Model 5)</span>
+            </td>
+        </tr>
+    </table>
+    <p>Can My Computer Run this game?</p>
+</div>
+<!-- END OF FOURTH PART OF PAGE -->
+<!-- fifth part of page -->
+<div class="fifth-part" id="fifth-part">
+    <img src="images/the-games-bg.jpg" alt="top-score-bg">
+    <h1 class="top-scores">TOP SCORES</h1>
+    <p>This top score from various games provided <br> on this platform</p>
+    <button class="btn btn-warning see-more-text">
+        see more
+    </button>
+
+    <div id="evan" class="card bg-dark top-card">
+        <div class="card-body">
+            <div class="row">
+                <div class="col-10">
+                    <div class="row">
+                        <div class="col-2 d-none d-lg-grid">
+                            <i class="fas fa-user-circle text-white top-user" style="font-size: 32px;"></i>
+                        </div>
+                        <div class="col-10">
+                            <span class="top-name">Evan Lahti</span>
+                            <br>
+                            <span class="top-pc d-none d-sm-grid">PC Gamer</span>
+                            <p class="top-texts">"One of my gaming highlights of the year."</p>
+                            <p class="top-date">October 18, 2018</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-2 d-none d-sm-grid">
+                    <img class="twitter" src="images/twitter.svg" alt="twitter">
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div id="jada" class="card bg-dark top-card">
+        <div class="card-body">
+            <div class="row">
+                <div class="col-10">
+                    <div class="row">
+                        <div class="col-2 d-none d-lg-grid">
+                            <i class="fas fa-user-circle text-white top-user" style="font-size: 32px;"></i>
+                        </div>
+                        <div class="col-10">
+                            <span class="top-name">Jada Griffin</span>
+                            <br>
+                            <span class="top-pc d-none d-sm-grid">Nerdreactor</span>
+                            <p class="top-texts">"The next big thing in the world of streaming and survival games."
+                            </p>
+                            <p class="top-date">December 21, 2018</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-2 d-none d-sm-grid">
+                    <img class="twitter" src="images/twitter.svg" alt="twitter">
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div id="aaron" class="card bg-dark top-card">
+        <div class="card-body">
+            <div class="row">
+                <div class="col-10">
+                    <div class="row">
+                        <div class="col-2 d-none d-lg-grid">
+                            <i class="fas fa-user-circle text-white top-user" style="font-size: 32px;"></i>
+                        </div>
+                        <div class="col-10">
+                            <span class="top-name">Aaron Williams</span>
+                            <br>
+                            <span class="top-pc d-none d-sm-grid">Uproxx</span>
+                            <p class="top-texts">"Snoop Dogg Playing The Wildly Entertaining 'SOS' Is Ridiculous."
+                            </p>
+                            <p class="top-date">December 24, 2018</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-2 d-none d-sm-grid">
+                    <img class="twitter" src="images/twitter.svg" alt="twitter">
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+</div>
+<!-- END OF FIFTH PART OF PAGE -->
+<!-- last part of page -->
+<div class="last-part">
+    <img src="images/newsletter-bg.jpg" alt="newsletter">
+    <h3>Want to stay in <br> touch?</h3>
+    <h1>NEWSLETTER <br> SUBSCRIBE</h1>
+    <p>In order to start receiving our news, all you have to do is enter your email <br> address. Everything else
+        will be taken care of by us. We will send you emails <br> containing information about game. We don’t spam.
+    </p>
+    <label>Your email address</label>
+    <input type="text" class="bg-dark" placeholder="youremail@binar.co.id">
+    <button class="btn btn-warning subscribe-now-text">
+        Subscribe now
+    </button>
+</div>
+<!-- END OF LAST PART OF PAGE -->
+<!-- footer -->
+<div class="container-fluid footer">
+    <div class="row">
+        <div class="col-3">
+
+        </div>
+        <div class="col-9">
+
+            <a class="main" href="#first-part">MAIN</a>
+            <a href="#second-part">ABOUT</a>
+            <a href="#third-part">GAME FEATURES</a>
+            <a href="#fourth-part">SYSTEM REQUIREMENTS</a>
+            <a href="#fifth-part">QUOTES</a>
+            <img src="images/facebook.svg" alt="fb">
+            <img src="images/twitter.svg" alt="tweet">
+            <img src="images/Vector.svg" alt="yt">
+            <img src="images/twitch.svg" alt="">
+
+        </div>
+    </div>
+    <div class="row footer-bawah">
+        <div class="col-3 footer-bawah-kiri">
+            <p class="copyright">© 2018 Your Games, Inc. All Rights Reserved</p>
+        </div>
+        <div class="col-9 text-end footer-bawah-kanan">
+            <a href="#">PRIVACY POLICY</a>
+            <a class="terms" href="#">TERMS OF SERVICES</a>
+            <a href="#">CODE OF CONDUCT</a>
+        </div>
+    </div>
+</div>
+<%- include('partials/footerhome.ejs') %>

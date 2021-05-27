@@ -1,0 +1,160 @@
+body {
+    background: rgba(156, 131, 95, 1);
+}
+
+.top-part {
+    align-items: center;
+    height: 125px;
+}
+
+.back {
+    text-decoration: none;
+    color: rgba(114, 76, 33, 1);
+    font-size: 50px;
+    font-weight: 1000;
+    font-family: 'Open Sans';
+}
+
+.back:hover {
+    color:rgba(114, 76, 33, 0.6);
+}
+
+.game-title {
+    color: rgba(249, 178, 61, 1);
+}
+
+.player {
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.bottom-part .left {
+    justify-content: flex-end;
+    
+}
+
+.bottom-part .right {
+    justify-content: flex-start;
+}
+
+.versus {
+    justify-content: center;
+    font-size: 100px;
+    align-items: center;
+    color: rgba(189, 0, 0, 1);
+    font-weight: bold;
+}
+
+.bottom-part .rock-img {
+    height: 115px;
+}
+
+.bottom-part .paper-scissors-img {
+    height: 130px;
+}
+
+ .bottom-part .left img {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.bottom-part .right img {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.refresh-img {
+    width: 60px;
+}
+
+.refresh-container {
+    justify-content: center;
+}
+
+.rectangle {
+    margin: 25px 0;
+    width: 175px;
+    height: 175px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15%;
+}
+
+.player-com {
+    margin-left: 40px;
+}
+
+.result {
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    font-size: 30px;
+    transform: rotate(-30deg);
+    color: white;
+    width: 190px;
+    height: 120px;
+    border-radius: 6%;
+}
+
+@media (max-width: 576px) {
+    .player {
+        font-size: 15px;
+        font-weight: bold;
+    }
+    .versus {
+        justify-content: center;
+        font-size: 50px;
+        align-items: center;
+        color: rgba(189, 0, 0, 1);
+        font-weight: bold;
+    }
+    .bottom-part .rock-img {
+        height: 40px;
+    }
+    
+    .bottom-part .paper-scissors-img {
+        height: 60px;
+    }
+    .game-title {
+        color: rgba(249, 178, 61, 1);
+        font-size: 15px;
+    }
+    .top-part img {
+        height: 50px;
+    }
+    .top-part .back {
+        font-size: 30px;
+    }
+    .refresh-img {
+        width: 30px;
+    }
+
+    .top-part {
+        height: 80px;
+    }
+
+    .rectangle {
+        margin: 7px 0;
+        width: 75px;
+        height: 75px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .player-com {
+        margin-left: 20px;
+    }
+
+    .result {
+        width: 95px;
+        height: 60px;
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 350px) {
+    .result {
+        width: 79px;
+        height: 50px;
+        font-size: 10px;
+    }
+}

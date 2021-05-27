@@ -1,0 +1,609 @@
+/* first part of page */
+
+/* container */
+
+.first-part {
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+/* END OF CONTAINER */
+
+/* background image */
+
+.first-part img {
+    width: 100%;
+}
+
+/* END OF BACKGROUND IMAGE */
+
+/* navbar */
+
+.first-part .navbar {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    background: rgba(0, 0, 0, 0.5) !important;
+}
+
+@media (min-width: 1200px) {
+    .first-part .navbar-brand {
+        margin-left: 4.5rem;
+        margin-right: 4.5rem;
+    }
+}
+
+@media (max-width: 1200px) {
+    .first-part .navbar {
+        background-color: rgba(0, 0, 0, 1) !important;
+        z-index: 1;
+    }
+}
+
+.first-part .navbar-brand {
+    font-weight: bold;
+}
+
+.first-part .navbar-nav {
+    margin-left: 30px;
+}
+
+.first-part .navbar .nav-item .nav-link {
+    font-size: 0.8em;
+    font-weight: 500;
+    color: white;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.first-part .navbar .right-side {
+    margin-right: 5rem;
+}
+
+/* END OF NAVBAR */
+
+/* play traditional game */
+
+.first-part .play-traditional-game {
+    position: absolute;
+    text-align: center;
+    top: 32%;
+    right: 2%;
+    left: 0;
+    font-size: 5.55vw;
+}
+
+/* END OF PLAY TRADITIONAL GAME */
+
+/* experience */
+
+.first-part .experience {
+    position: absolute;
+    top: 46%;
+    right: 0;
+    left: 0;
+    text-align: center;
+    font-size: 1.4vw;
+}
+
+/* END OF EXPERIENCE */
+
+/* play now */
+
+.first-part .play-now {
+    position: absolute;
+    top: 55%;
+    right: 0;
+    left: 0;
+    text-align: center;
+}
+
+.first-part .play-now-text {
+    font-size: 1.3vw;
+    background-color: #FAB240;
+    border: #FAB240;
+    width: 20%;
+    line-height: 300%;
+    font-weight: 700;
+    font-family: arial;
+}
+
+/* END OF PLAY NOW */
+
+/* the story */
+
+.first-part .the-story {
+    position: absolute;
+    bottom: 5%;
+    font-size: 1.2vw;
+    right: 0;
+    left: 0;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 1.5%;
+}
+
+/* END OF THE STORY */
+
+/* scroll down */
+
+.first-part .scroll-down {
+    position: absolute;
+    bottom: 4%;
+    width: 2vw;
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* END OF SCROLL DOWN */
+
+/* END OF FIRST PART */
+
+/* second part of page */
+
+/* container */
+
+.second-part {
+    position: relative;
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+/* END OF CONTAINER */
+
+/* background image */
+
+.second-part img {
+    width: 100%;
+}
+
+/* END OF BACKGROUND IMAGE */
+
+/* what's so special */
+
+.second-part h3 {
+    position: absolute;
+    left: 5.7%;
+    top: 24%;
+    font-weight: 400;
+    font-size: 2.1vw;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* END OF WHAT'S SO SPECIAL */
+
+/* the games */
+
+.second-part h1 {
+    position: absolute;
+    top: 29%;
+    left: 5.7%;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3.7vw;
+}
+/* END OF THE GAMES */
+
+/* carousel */
+
+.second-part .carousel {
+    position: absolute;
+    width: 50%;
+    top: 29%;
+    left: 30%;
+}
+ 
+.carousel-indicators li {
+    width: 0.8vw;
+    height: 0.8vw;
+    margin-right: 5%;
+    margin-left: 5%;
+    border-radius: 100%;
+    list-style-type: circle !important;
+}
+
+/* END OF CAROUSEL */
+
+/* END OF SECOND PART OF PAGE */
+
+/* third part of page */
+
+/* container */
+
+.third-part {
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+/* END OF CONTAINER */
+
+/* background image */
+
+.third-part img {
+    width: 100%;
+}
+
+/* END OF BACKGROUND IMAGE */
+
+/* what's so special */
+
+.third-part h3 {
+    position: absolute;
+    left: 60%;
+    top: 24%;
+    font-weight: 400;
+    font-size: 2.1vw;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* END OF WHAT'S SO SPECIAL */
+
+/* features */
+
+.third-part h1 {
+    position: absolute;
+    left: 60%;
+    top: 29%;
+    font-weight: 400;
+    font-size: 3.7vw;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* END OF FEATURES */
+
+.third-part .ellipse-white {
+    position: absolute;
+    top: 45%;
+    width: 1vw;
+    left: 60%;
+}
+
+.third-part .traditional-games {
+    position: absolute;
+    top: 43.7%;
+    left: 63%;
+    color: #E09F40;
+    font-size: 1.9vw;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.third-part .if-you-miss {
+    position: absolute;
+    top: 49%;
+    left: 63%;
+    color: white;
+    font-size: 1.3vw;
+}
+
+.third-part .ellipse-1 {
+    position: absolute;
+    top: 61%;
+    width: 1vw;
+    left: 60%;
+}
+
+.third-part .game-suit {
+    position: absolute;
+    top: 59.7%;
+    left: 63%;
+    color: #E09F40;
+    font-size: 1.9vw;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.third-part .ellipse-2 {
+    position: absolute;
+    top: 69%;
+    width: 1vw;
+    left: 60%;
+}
+
+.third-part .tbd {
+    position: absolute;
+    top: 67.7%;
+    font-size: 1.9vw;
+    left: 63%;
+    color: #E09F40;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* END OF THIRD PART OF PAGE */
+
+/* fourth part of page */
+
+.fourth-part {
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+.fourth-part img {
+    width: 100%;
+}
+
+.fourth-part h1 {
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-weight: 400;
+    font-size: 3.7vw;
+}
+
+.table-requirements {
+    position: absolute;
+    top: 40%;
+    font-size: 1.2vw;
+    left: 10%;
+}
+.table-requirements tr td {
+    padding: 1em;
+    border: 1px solid rgba(53, 53, 53, 0.6);
+}
+
+.requirements-caption-title {
+    color: #f9ba4d;
+    font-size: 1.6vw;
+}
+
+.fourth-part p {
+    position: absolute;
+    top: 10.5%;
+    right: 0;
+    left: 0;
+    text-align: center;
+    color: white;
+    font-size: 1.3vw;
+}
+
+/* END OF FOURTH PART OF PAGE */
+
+/* fifth part */
+
+.fifth-part {
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+.fifth-part img {
+    width: 100%;
+}
+
+.fifth-part .card {
+    position: absolute;
+    top: 0;
+}
+
+.fifth-part h1 {
+    position: absolute;
+    top: 40%;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    left: 10%;
+    font-size: 3.7vw;
+}
+
+.fifth-part p {
+    position: absolute;
+    top: 48%;
+    left: 10%;
+    color: white;
+    font-size: 1.3vw;
+}
+
+.fifth-part button {
+    position: absolute;
+    top: 58%;
+    left: 10%;
+}
+
+.fifth-part .see-more-text {
+    font-size: 1.3vw;
+    background-color: #FAB240;
+    border: #FAB240;
+    width: 18%;
+    line-height: 250%;
+    font-weight: 700;
+    font-family: arial;
+}
+
+@media (min-width: 400px) {
+    .fifth-part .top-card {
+        width: 30vw;
+        height: 15vw;
+    }
+}
+
+.fifth-part .top-card {
+    width: 30vw;
+}
+.fifth-part .top-name {
+    color: #E4A243;
+    font-size: 1.3vw;
+}
+
+.fifth-part .top-pc {
+    color: gray;
+    font-size: 1.3vw;
+
+}
+
+.fifth-part .twitter {
+    width: 1.5vw;
+}
+
+.fifth-part .top-texts {
+    font-size: 1.3vw;
+}
+
+@media (max-width: 900px) {
+    
+    .fifth-part .top-texts {
+        margin-left: 10vw;
+    }
+    .fifth-part .top-date {
+        margin-left: 10vw;
+        padding-top: 1vw;
+    }
+}
+
+.fifth-part .top-date {
+    margin-top: 5vw;
+    font-size: 1vw;
+}
+
+#evan {
+    top: 10%;
+    right: 10%;
+}
+
+#jada {
+    top: 35%;
+    right: 15%;
+}
+
+#aaron {
+    top: 60%;
+    right: 10%;
+}
+
+/* END OF FIFTH PART OF PAGE */
+
+/* last part of page */
+
+.last-part {
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+.last-part img {
+    width: 100%;
+}
+
+.last-part h3 {
+    position: absolute;
+    top: 30%;
+    color: white;
+    left: 50%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 1.9vw;
+}
+
+.last-part h1 {
+    position: absolute;
+    top: 40%;
+    color: white;
+    left: 50%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 3.7vw;
+}
+
+.last-part p {
+    position: absolute;
+    top: 54%;
+    left: 50%;
+    color: white;
+    font-size: 1.3vw;
+}
+
+.last-part label {
+    position: absolute;
+    top: 65%;
+    left: 51%;
+    color: gray;
+    z-index: 1;
+    font-size: 1vw;
+}
+.last-part input {
+    padding-top: 2vw !important;
+    position: absolute;
+    top: 65%;
+    left : 50%;
+    padding: 1%;
+    border-radius: 5px;
+    color: #FAB240;
+    border: black;
+    width: 25%;
+    height: 4.7vw;
+}
+
+.last-part input::placeholder {
+    line-height: 100px;
+    color: #FAB240;
+    font-size: 1.3vw;
+}
+
+.last-part button {
+    position: absolute;
+    top: 65%;
+    left: 76%;
+    height: 4.7vw;
+}
+
+.last-part .subscribe-now-text {
+    font-size: 1.3vw;
+    background-color: #FAB240;
+    border: #FAB240;
+    width: 18%;
+    line-height: 225%;
+    font-weight: 700;
+    font-family: arial;
+}
+
+.footer {
+    background-color: black;
+}
+
+
+.footer a {
+    margin-right: 4%;
+}
+
+.footer .main {
+    margin-left: 7%;
+}
+.footer a {
+    color: white;
+    text-decoration: none;
+    font-size: 1vw;
+}
+
+.footer img {
+    margin-right: 4%;
+    width: 1vw;
+}
+
+.footer-bawah {
+    margin-top: 15px;
+    border-top: 1px solid gray;
+    margin-left: 6vw;
+    margin-right: 6vw;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.copyright {
+    font-size: 0.8vw;
+    color: gray;
+}
+
+.terms {
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+
+
+
